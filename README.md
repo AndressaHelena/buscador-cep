@@ -6,7 +6,7 @@ Projeto desenvolvido em react com a finalidade de praticar os conceitos aprendid
 
 Ao digitar um CEP ele abre um card com infomações como:
 - Rua
-- Bairo
+- Bairro
 - Cidade
 - Estado
 
