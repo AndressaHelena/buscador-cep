@@ -5,13 +5,15 @@ Projeto desenvolvido em react com a finalidade de praticar os conceitos aprendid
 ## O que ele Faz?
 
 Ao digitar um CEP ele abre um card com infomações como:
--Rua
--Bairo
--Cidade
--Estado
+- Rua
+- Bairro
+- Cidade
+- Estado
+
+
 Se o usuário digitar cep inválido sera apresentado um alerta.
 
-### Implantação
+## Implantação
 
 <a href="https://andressahelena.github.io/buscador" target="_blank">Buscador de CEP - Andressa Helena</a>
 
