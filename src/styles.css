@@ -1,0 +1,98 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#fec180, #ff8993);
+
+}
+
+.title{
+    font-size: 60px;
+    color: #f42e78;
+animation: flipTitle 2s;
+
+}
+
+@keyframes flipTitle {
+    from{
+        transform: rotateX(90deg);
+    }
+    to{
+        transform: rotateX(0);
+    }
+    
+}
+
+.containerInput{
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    margin: 34px 0;
+    border-radius: 10px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0,0.3);
+}
+
+.containerInput input{
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: black;
+    outline: none;
+    margin-right: 8px;
+}
+
+.buttonSearch{
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0,5s;
+}
+
+.buttonSearch:hover{
+    transform: scale(1.2);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.main h2{
+    margin: 16px 0;
+    font-size: 40px;
+}
+
+.main span{
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+@media (max-width: 430px){
+    .title{
+        font-size: 40px;
+    }
+
+    .main h1{
+        font-size: 40px;
+    }
+    .main h2{
+        font-size: 35px;
+    }
+
+    .main{
+        width: 80%;
+        min-width: 250px;
+    }
+
+
+}
