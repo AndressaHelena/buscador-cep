@@ -12,6 +12,7 @@ Ao digitar um CEP ele abre um card com infomações como:
 Se o usuário digitar cep inválido sera apresentado um alerta.
 
 ### Implantação
-<a target="_blank" href="https://andressahelena.github.io/buscador/">
+
+<a href="https://andressahelena.github.io/buscador" target="_blank">Buscador de CEP - Andressa Helena</a>
 
 
