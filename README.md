@@ -15,6 +15,6 @@ Se o usuário digitar cep inválido sera apresentado um alerta.
 
 ## Implantação
 
-<a href="https://andressahelena.github.io/buscador" target="_blank">Buscador de CEP - Andressa Helena</a>
+<a href="https://andressahelena.github.io/Buscador" target="_blank">Buscador de CEP - Andressa Helena</a>
 
 
